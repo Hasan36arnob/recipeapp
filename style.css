@@ -6,18 +6,18 @@
 
 /* Color Palette */
 :root {
-  --primary: #ff7e5f;
-  --primary-dark: #eb5e41;
-  --primary-light: #ffb199;
-  --secondary: #0ba360;
-  --text-dark: #333333;
+  --primary: #00b894;         /* Cool teal green */
+  --primary-dark: #00897b;    /* Deep teal */
+  --primary-light: #e0f7fa;   /* Soft aqua tint */
+  --secondary: #00cec9;       /* Vibrant cyan */
+  --text-dark: #22223b;       /* Deep navy */
   --text-light: #f8f9fa;
-  --background: #ffffff;
-  --background-light: #f8f9fa;
+  --background: #f3f7fa;      /* Very light blue */
+  --background-light: #eaf6fb;/* Lighter blue */
   --card-bg: #ffffff;
-  --border-radius: 8px;
-  --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --transition: all 0.3s ease;
+  --border-radius: 14px;
+  --shadow: 0 2px 12px rgba(0, 184, 148, 0.10);
+  --transition: all 0.3s cubic-bezier(.4,0,.2,1);
 }
 
 body {
